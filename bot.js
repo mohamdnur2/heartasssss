@@ -97,7 +97,7 @@ client.on('message', message => { // Leaked by [ @!- Jack#0359 ]
             message.channel.send({embed: {
                 color: 3447003,
                 author: {
-                  name: 'King Bot\'s translator',
+                  name: 'Heart BOT\'s translator',
                   icon_url: client.user.avatarURL
                 },
                 fields: [{
@@ -108,7 +108,7 @@ client.on('message', message => { // Leaked by [ @!- Jack#0359 ]
                 timestamp: new Date(),
                 footer: {
                   icon_url: client.user.avatarURL,
-                  text: "King Bot"
+                  text: "Heart BOT"
                 }
               }
             });
@@ -259,7 +259,7 @@ var heroo = new Discord.RichEmbed()
 .setColor('#6a109d')
 .setTimestamp(new Date())
 .setThumbnail(client.user.avatarURL)
-.setTitle('King Bot Info')
+.setTitle('Heart BOT Info')
 .setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
 .setAuthor(client.user.username,client.user.avatarURL)
 .addField("**البرفكس** :",`**[ ${prefix} ]**`,true)
@@ -335,7 +335,7 @@ client.on('guildCreate', guild => { // Leaked by [ @!- Jack#0359 ]
 var message = "zg";
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
-     .setTitle('King Bot Link Click Here .!')
+     .setTitle('Heart BOT Link Click Here .!')
      .setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
   .setDescription(`**
   New Server Add King Bot ✅
@@ -348,10 +348,10 @@ client.on('guildDelete', guild => { // Leaked by [ @!- Jack#0359 ]
 var message = "zg";
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
-     .setTitle('King Bot Link Click Here .!')
+     .setTitle('Heart BOT Link Click Here .!')
      .setURL('https://discordapp.com/api/oauth2/authorize?client_id=498254846819041287&permissions=8&scope=bot')
   .setDescription(`**
-  Server Kicked King Bot :cry:
+  Server Kicked Heart BOT :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
 client.channels.get("465340887279468564").sendEmbed(embed)
@@ -414,7 +414,7 @@ var mentionned = message.mentions.members.first();
 .addField(': دخولك لديسكورد قبل', `${moment(heg.createdTimestamp).format('YYYY/M/D HH:mm:ss')} **\n** \`${moment(heg.createdTimestamp).fromNow()}\`` ,true)
 .addField(': انضمامك لسيرفر قبل', `${moment(h.joinedAt).format('YYYY/M/D HH:mm:ss')} \n \`${moment(h.joinedAt).fromNow()}\``, true)
 .addField(': عدد الدعوات', inviteCount,false)
-.setFooter("King Bot.")
+.setFooter("Heart BOT.")
     message.channel.sendEmbed(id);
 })
 }
